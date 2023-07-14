@@ -12,7 +12,7 @@ public class Main {
 
         System.out.printf("Wprowadź %d liczb\n", size);
 
-        for (int i=0; i<array.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             double input = scanner.nextDouble();
             array[i] = input;
         }
