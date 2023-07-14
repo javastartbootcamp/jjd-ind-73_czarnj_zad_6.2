@@ -12,13 +12,13 @@ public class Main {
 
         System.out.printf("Wprowadź %d liczb\n", size);
 
-        for(int i=0; i<array.length; i++) {
+        for (int i=0; i<array.length; i++) {
             double input = scanner.nextDouble();
             array[i] = input;
         }
 
         double sum = 0;
-        for(double element : array) {
+        for (double element : array) {
             sum += element * element;
         }
 
